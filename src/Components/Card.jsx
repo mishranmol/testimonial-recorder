@@ -34,7 +34,7 @@ const Card = ({ review, index, setIndex }) => {
 
     return (
 
-        <div className="flex flex-col mt-10 p-10 transition-all duration-700 justify-center items-center relative w-[50vw] h-[65vh] md:w[700px] bg-white  ">
+        <div className="flex flex-col mt-10 p-10 rounded-lg transition-all duration-700 justify-center items-center relative w-[50vw] h-[65vh] md:w[700px] bg-white  ">
 
 
 
@@ -72,7 +72,7 @@ const Card = ({ review, index, setIndex }) => {
                     <button onClick={RightShiftHanlder} className="text-violet-400 cursor-pointer text-4xl "><FiChevronRight /></button>
                 </div>
 
-                <div className="mx-auto hover:bg-violet-500 opacity-50 mb-16 rounded-md cursor-pointer border-none bg-violet-900  w-[200px] mt-8 h-[50px]">
+                <div className="mx-auto hover:bg-violet-900 opacity-50 mb-16 rounded-md cursor-pointer border-none bg-violet-500  w-[200px] mt-8 h-[50px]">
                     <button onClick={SurpriseHanlder} className="text-white font-semibold mb-4 text-lg  mt-3">Surprise Me</button>
                 </div>
             </div>
